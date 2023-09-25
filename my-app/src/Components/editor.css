@@ -1,0 +1,474 @@
+@font-face {
+    font-family: Amanda;
+    src: url(../../public/Fonts/Amanda.ttf);
+}
+@font-face {
+    font-family: Alexa;
+    src: url(../../public/Fonts/Alexa.ttf);
+}
+@font-face {
+    font-family: Amsterdam;
+    src: url(../../public/Fonts/Amsterdam.ttf);
+}
+@font-face {
+    font-family: Austin;
+    src: url(../../public/Fonts/Austin.ttf);
+}
+
+@font-face {
+    font-family: Barcelona;
+    src: url(../../public/Fonts/Barcelona.ttf);
+}
+@font-face {
+    font-family: Bayview;
+    src: url(../../public/Fonts/Bayview.ttf);
+}
+@font-face {
+    font-family: Beachfront;
+    src: url(../../public/Fonts/Beachfront.ttf);
+}
+@font-face {
+    font-family: Bellview;
+    src: url(../../public/Fonts/Bellview.ttf);
+}
+@font-face {
+    font-family: Buttercup;
+    src: url(../../public/Fonts/Buttercup.ttf);
+}
+
+@font-face {
+    font-family: Chelsea;
+    src: url(../../public/Fonts/Chelsea.ttf);
+}
+@font-face {
+    font-family: Classic;
+    src: url(../../public/Fonts/ClassicType.ttf);
+}
+@font-face {
+    font-family: Freehand;
+    src: url(../../public/Fonts/Freehand.ttf);
+}
+@font-face {
+    font-family: Freespirit;
+    src: url(../../public/Fonts/Freespirit.ttf);
+}
+@font-face {
+    font-family: Greenwood;
+    src: url(../../public/Fonts/Greenworld.ttf);
+}
+@font-face {
+    font-family: LoveNeon;
+    src: url(../../public/Fonts/LoveNeon.ttf);
+}
+
+@font-face {
+    font-family: LoveNote;
+    src: url(../../public/Fonts/LoveNote.ttf);
+}
+@font-face {
+    font-family: Marquee;
+    src: url(../../public/Fonts/Marquee.ttf);
+}
+@font-face {
+    font-family: Mayfair;
+    src: url(../../public/Fonts/Mayfair.ttf);
+}
+@font-face {
+    font-family: Melbourne;
+    src: url(../../public/Fonts/Melbourne.ttf);
+}
+@font-face {
+    font-family: Monaco;
+    src: url(../../public/Fonts/Monaco.ttf);
+}
+
+@font-face {
+    font-family: NeonGlow;
+    src: url(../../public/Fonts/NeonGlow.ttf);
+}
+
+@font-face {
+    font-family: NeonLite;
+    src: url(../../public/Fonts/NeonLite.ttf);
+}
+@font-face {
+    font-family: Neonscript;
+    src: url(../../public/Fonts/Neonscript.ttf);
+}
+@font-face {
+    font-family: Neontrace;
+    src: url(../../public/Fonts/Neontrace.ttf);
+}
+@font-face {
+    font-family: NeoTokyo;
+    src: url(../../public/Fonts/NeoTokyo.ttf);
+}
+@font-face {
+    font-family: Nevada;
+    src: url(../../public/Fonts/Nevada.ttf);
+}
+
+@font-face {
+    font-family: NewCursive;
+    src: url(../../public/Fonts/NewCursive.ttf);
+}
+
+@font-face {
+    font-family: NorthShore;
+    src: url(../../public/Fonts/Northshore.ttf);
+}
+@font-face {
+    font-family: Photogenic;
+    src: url(../../public/Fonts/Photogenic.ttf);
+}
+@font-face {
+    font-family: Rocket;
+    src: url(../../public/Fonts/Rocket.ttf);
+}
+@font-face {
+    font-family: Royalty;
+    src: url(../../public/Fonts/Royalty.ttf);
+}
+@font-face {
+    font-family: SciFi;
+    src: url(../../public/Fonts/SciFi.ttf);
+}
+@font-face {
+    font-family: Signature;
+    src: url(../../public/Fonts/Signature.ttf);
+}
+
+@font-face {
+    font-family: Sorrento;
+    src: url(../../public/Fonts/Sorrento.ttf);
+}
+
+@font-face {
+    font-family: TypeWritter;
+    src: url(../../public/Fonts/Typewriter.ttf);
+}
+@font-face {
+    font-family: Venetian;
+    src: url(../../public/Fonts/Venetian.ttf);
+}
+@font-face {
+    font-family: Vintage;
+    src: url(../../public/Fonts/Vintage.ttf);
+}
+@font-face {
+    font-family: Waikiki;
+    src: url(../../public/Fonts/Waikiki.ttf);
+}
+@font-face {
+    font-family: WildScript;
+    src: url(../../public/Fonts/WildScript.ttf);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.heading {
+    background-color: aqua;
+    height: auto;
+    padding: 1vh;
+ 
+}
+
+.heading h1 {
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+.mainDiv {
+    width: 99vw;
+    height: 90vh;
+    /* border: 1px solid red; */
+    display: flex;
+   
+}
+/* Image div */
+.imageDiv  {
+    /* border: 1px solid blue; */
+    width: 70%;
+    display: flex;
+}
+.sideImage {
+    width: 20%;
+    height: 100%;
+    /* border: 1px solid blue; */
+    padding: 2vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    gap: 1vh;
+}
+.sideCard {
+    width: 70%;
+    height: 250px;
+    border-radius: 15px;
+    /* border: 1px solid red; */
+}
+.mainImage {
+    width: 80%;
+    height: 100%;
+    /* border: 1px solid red; */
+    position: relative;
+}
+.preview {
+    /* border: 1px solid red; */
+    width: 30vw;
+    height: 10vh;
+    position: absolute;
+    left:15vw;
+    top: 20vh;
+    padding: 1vh;
+    overflow-wrap: break-word;
+}
+.preview h1 {
+    font-size: 4vw;
+    font-weight: lighter;
+    color: red;
+    text-shadow: 0 0 10px red,
+    0 0 20px red,
+    0 0 40px red,
+    0 0 80px red,
+    0 0 160px red;
+}
+.mainCard {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    /* border: 1px solid blue; */
+    border-radius: 25px;
+}
+
+
+.resContent {
+    display: none;
+}
+/* Content DIV */
+
+@media (max-width:768px) {
+   
+
+    .heading h1 {
+        font-size: 4vw;
+    }
+    .imageDiv {
+        width: 100%;
+        height: 60vh;
+    }
+    .mainDiv {
+        display: flex;
+        flex-direction: column;
+    }
+    .preview {
+        width: 70vw;
+        left: 5vw;
+        top: 10vh;
+        overflow-wrap: break-word;
+    }
+   .preview h1 {
+    font-size: 250%;
+    text-wrap: balance;
+   }
+    .contentDiv {
+        display: none;
+    }
+    .resContent {
+        display: block;
+        width: 100%;
+        height: 30vh;
+        /* border: 1px solid blue; */
+        overflow-y: scroll;
+    }
+    .directions {
+        display: flex;
+        padding: 2vh;
+        justify-content: space-between;
+        /* border: 1px solid red; */
+    }
+    .directions button {
+        width: 25vw;
+        font-size: 4vw;
+        height: 5vh;
+        align-items: center;
+        border: 1px solid black;
+        border-radius: 25px;
+        font-weight: bold;
+    }
+    .selectedButton {
+        width: 25vw;
+        font-size: 4.5vw;
+        height: 4vh;
+        border: 1px solid white;
+        border-radius: 25px;
+        font-weight: bold;
+        color: white;
+        background-color: #5761FF;
+    }
+    .resDiv {
+        width: 100%;
+        height: 100%;
+        /* border: 1px solid yellow; */
+    }
+
+    .inputDiv {
+        /* border: 1px solid red; */
+        padding: 1vh;
+    }
+    .inputDiv h2{
+        font-size: 6vw;
+        font-weight: bold;
+        margin-bottom: 2vh;
+        /* border: 1px solid red; */
+    }
+   
+    .inputDiv input {
+        border: 1px solid #909090;
+        margin-top: 2vh;
+        width: 100%;
+        height: 12vh;
+        text-align: center;
+        background-color: #F5F5F5;
+        border-radius: 15px;
+    }
+    .fontHeading{
+        font-size: 3vw;
+        font-weight: bold;
+    }
+    .fontTypes button {
+        font-size: 4vw;
+    }
+    /* .colorHeading {
+        width: 100%;
+        border: 1px solid blue;
+    } */
+    .colorHeading h2 {
+        font-size: 6vw;
+        font-weight: bold;
+        margin-bottom: 2vh;
+    }
+    .colorTypes {
+        margin-top: 2vh;
+    }
+}
+
+.contentDiv {
+    /* border: 1px solid blue; */
+    width: 30%; 
+    height: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    
+}
+.inputDiv {
+    /* border: 1px solid red; */
+    padding: 1vh;
+}
+.inputDiv h2 {
+    font-size: 2.5vw;
+    font-weight: 500;
+    margin-bottom: 2vh;
+}
+.inputDiv input {
+    border: 1px solid #909090;
+    margin-top: 2vh;
+    width: 100%;
+    height: 12vh;
+    text-align: center;
+    background-color: #F5F5F5;
+    border-radius: 15px;
+}
+.fontDiv {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    /* overflow: scroll;
+    scrollbar-width: none; */
+}
+.fontHeading {
+    height: 8vh;
+    padding: 1vh;
+}
+.fontHeading{
+    font-size: 3vw;
+    font-weight: bold;
+    margin-top: 0.5vh;
+    /* margin-bottom: 1vh; */
+}
+.fontTypes {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1vh;
+    padding: 1vh;
+    row-gap: 1vh;
+    margin-top: 2vh;
+}
+.singleFont {
+    border: 1px solid #9a9a9a;
+    height: 6vh;
+    border-radius: 8px;
+    font-size: 1.1vw;
+    /* font-weight: 300; */
+}
+.selectedFont {
+    border: 1px solid #9a9a9a;
+    height: 6vh;
+    border-radius: 8px;
+    font-size: 1vw;
+    color: white;
+    background-color: #5761FF;
+}
+
+.colorDiv {
+    /* border: 1px solid red; */
+    width: 100%;
+    /* margin-top: 2vh; */
+}
+.colorHeading h1 {
+    font-size: 1.5vw;
+    font-weight: 500;
+    margin-top: 0.5vh;
+    margin-bottom: 2vh;
+}
+.colorTypes {
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    padding: 2vh;
+    gap: 1vh;
+}
+.singleColor {
+    width: 4vh;
+    height: 4vh;
+    background-color: black;
+    border-radius: 50%;
+    border: 2px solid gray;
+    text-shadow: 
+    .1vw 0vw .25vw #ffd8d8, .2vw 0vw .25vw #ffd8d8, .4vw 0vw .25vw #ffd8d8, 
+  
+    .1vw 0vw   0vw #f25757, .2vw 0vw   0vw #f25757, .4vw 0vw   0vw #f25757,
+    .1vw 0vw  .1vw #f25757, .2vw 0vw  .1vw #f25757, .4vw 0vw  .1vw #f25757,
+    .1vw 0vw   2vw #f25757, .2vw 0vw   2vw #f25757, .4vw 0vw   2vw #f25757, 
+  
+    .1vw 0vw   1vw #e50b0b, .2vw 0vw   1vw #e50b0b, .4vw 0vw   5vw #e50b0b, 
+    .1vw 0vw   5vw #e50b0b, .2vw 0vw  20vw #e50b0b, .4vw 0vw  10vw #e50b0b,
+    .1vw 0vw  10vw #e50b0b, .2vw 0vw  30vw #e50b0b, .4vw 0vw  10vw #e50b0b;
+}
