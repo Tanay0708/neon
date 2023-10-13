@@ -9,6 +9,7 @@ const InputDiv = ({change}) => {
   const handleChange = (e) => {
     setText(e.target.value);
     change(e.target.value)
+    
   }
 
   return (
@@ -16,7 +17,7 @@ const InputDiv = ({change}) => {
           <div className='inputDiv'>
                 <h2 >Enter your text</h2>
              
-                <input maxLength={20} type="text" value={text} placeholder='enter your text here' onChange={handleChange} />
+                <input maxLength={35} type="text" value={text} placeholder='enter your text here' onChange={handleChange} />
             </div>
   
   )

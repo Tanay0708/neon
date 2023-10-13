@@ -16,43 +16,44 @@ const Colors = ({yourColor}) => {
   return (
     <>
       <div className='colorHeading'>
+     
                     <h2>Choose your color</h2>
                     <p>Digital mockups only colours may appear different in real life</p>
                 </div>
     <div className='colorTypes'>
-                    <button className='singleColor' onClick={handelColor} value="#FFFDCF" style={{backgroundColor:"#FFFDCF"}}>
-
+   
+                    <button className='singleColor' onClick={handelColor} value="#FFFFFF" style={{backgroundColor:"#FFFFFF"}}>
+          White
                     </button>
-                    <button value="#FFF97C"  onClick={handelColor}  style={{backgroundColor:"#FFF97C"}} className='singleColor'>
-
+                 
+                    <button value="#FFF67F"  onClick={handelColor}  style={{backgroundColor:"#fff67f"}} className='singleColor'>
+        Warm White
                     </button>
                     <button value="#FFD62E"  onClick={handelColor}  className='singleColor'style={{backgroundColor:"#FFD62E"}}  >
-
+        Yellow
                     </button>
                     <button value="#FF8D02" onClick={handelColor} className='singleColor'style={{backgroundColor:"#FF8D02"}} >
-
+        Orange
                     </button>
-                    <button value="#FF7575" style={{backgroundColor:"#FF7575"}}  onClick={handelColor} className='singleColor'>
-
+                    <button value="#FF0000" style={{backgroundColor:"#FF0000"}}  onClick={handelColor} className='singleColor'>
+        Red
                     </button>
-                    <button value="#FF2A4D"style={{backgroundColor:"#FF2A4D"}} onClick={handelColor} className='singleColor'>
-
+                    <button value="#FF5CE8"style={{backgroundColor:"#FF2A4D"}} onClick={handelColor} className='singleColor'>
+        Deep Pink
                     </button>
-                    <button value="#FF90FF" style={{backgroundColor:"#FF90FF"}}  onClick={handelColor}  className='singleColor'>
-
+                    <button value="#0274fc" style={{backgroundColor:"#0274fc"}}  onClick={handelColor}  className='singleColor'>
+        Deep Blue
                     </button>
-                    <button value="#EAA4FF"style={{backgroundColor:"#EAA4FF"}}  onClick={handelColor} className='singleColor'>
-
+                    <button value="#24B7DE"style={{backgroundColor:"#24B7DE"}}  onClick={handelColor} className='singleColor'>
+        Ice Blue
                     </button>
-                    <button value="#FF5CE8" style={{backgroundColor:"#FF5CE8"}} onClick={handelColor}  className='singleColor'>
-
+                    <button value="#0BD748" style={{backgroundColor:"#0BD748"}} onClick={handelColor}  className='singleColor'>
+        Deep Green
                     </button>
-                    <button value="#8C59FF"style={{backgroundColor:"#8C59FF"}} onClick={handelColor}  className='singleColor'>
-
+                    <button value="#AEDE0C"style={{backgroundColor:"#AEDE0C"}} onClick={handelColor}  className='singleColor'>
+        Lemon Green
                     </button>
-                    <button value="#0274FC" style={{backgroundColor:"#0274FC"}}  onClick={handelColor} className='singleColor'>
-
-                    </button>
+                    
                     
                 </div>
                 </>

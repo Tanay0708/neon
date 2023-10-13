@@ -1,0 +1,31 @@
+.sizeType {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* border: 1px solid red;    */
+    gap: 1vw;
+}
+
+.singleSFont {
+    border: 1px solid #9a9a9a;
+    height: 6vh;
+    border-radius: 8px;
+    font-size: 1.1vw;
+    /* font-weight: 300; */
+}
+.selectedSFont {
+    border: 1px solid #9a9a9a;
+    height: 6vh;
+    border-radius: 8px;
+    font-size: 1.1vw;
+    color: white;
+    background-color: #5761FF;
+}
+
+@media (max-width:768px) {
+    .singleSFont {
+        font-size: 4vw;
+    }
+    .selectedSFont {
+        font-size: 4vw;
+    }
+}
