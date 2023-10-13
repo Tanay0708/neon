@@ -318,10 +318,10 @@
         border-radius: 5px;
     }
     .moreText {
-        font-size: 5vw;
+        font-size: 4.7vw;
         width: 70vw; 
         left: 6%;
-        padding: 10px;
+        padding-top: 10px;
     }
    .preview h1 {
     font-size: 4vh;
@@ -401,7 +401,7 @@
     }
      .colorHeading h1 {
         display: block;
-        font-size: 4vw;
+        font-size: 4.2vw;
         font-weight: bold;
         margin-bottom: 2vh;
      }
@@ -414,6 +414,7 @@
     .colorTypes {
         margin-top: 2vh;
         margin-bottom: 1vh;
+      
     }
 }
 
@@ -507,7 +508,7 @@
     grid-template-columns: repeat(6,1fr);
     padding: 2vh;
     gap: 1vh;
-  
+    overflow-y: scroll;
 }
 .singleColor {
     width: 7vh;
