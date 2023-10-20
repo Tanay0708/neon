@@ -135,6 +135,8 @@ const handleClick = (e) => {
 }
 
   return (
+    <>
+    <hr className='mt-10 mb-10 hidden md:block' />
     <div className='fontDiv'>
                     <div className='fontHeading'>
                         CHOOSE FONTS
@@ -149,7 +151,10 @@ const handleClick = (e) => {
                        }
 
                     </div>
+                   
             </div>
+           
+            </>
   )
 }
 

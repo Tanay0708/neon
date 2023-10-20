@@ -4,6 +4,12 @@
     /* border: 1px solid red;    */
     gap: 1vw;
 }
+.sizeHeader {
+    margin-top: 50px;
+    font-size: 2vw;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
 
 .singleSFont {
     border: 1px solid #9a9a9a;
@@ -12,6 +18,7 @@
     font-size: 1.1vw;
     /* font-weight: 300; */
 }
+
 .selectedSFont {
     border: 1px solid #9a9a9a;
     height: 6vh;
@@ -27,5 +34,8 @@
     }
     .selectedSFont {
         font-size: 4vw;
+    }
+    .sizeHeader {
+        display: none;
     }
 }

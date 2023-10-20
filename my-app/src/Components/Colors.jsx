@@ -15,6 +15,7 @@ const Colors = ({yourColor}) => {
 
   return (
     <>
+    <hr className='mb-10' />
       <div className='colorHeading'>
      
                     <h2>Choose your color</h2>

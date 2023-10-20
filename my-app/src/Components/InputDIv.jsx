@@ -15,7 +15,7 @@ const InputDiv = ({change}) => {
   return (
     
           <div className='inputDiv'>
-                <h2 >Enter your text</h2>
+                <h2 >ENTER YOUR TEXT</h2>
              
                 <input maxLength={35} type="text" value={text} placeholder='enter your text here' onChange={handleChange} />
             </div>

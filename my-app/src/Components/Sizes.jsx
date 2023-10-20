@@ -36,6 +36,11 @@ const Sizes = ({handleSize}) => {
 
 
   return (
+    <>
+    <hr className='mt-10' />
+    <div className='sizeHeader'>
+      <h1>Choose Size</h1>
+    </div>
     <div className='sizeType'>
         {
           vari.map((el) => {
@@ -47,6 +52,7 @@ const Sizes = ({handleSize}) => {
           })
         }
     </div>
+    </>
   )
 }
 
