@@ -512,12 +512,13 @@
     grid-template-columns: repeat(6,1fr);
     padding: 2vh;
     gap: 1vh;
-    overflow-y: scroll;
+    overflow-y: hidden;
 }
 .singleColor {
     width: 7vh;
     height: 7vh;
     font-weight: bold;
+    font-size: 12px;
     background-color: black;
     /* border-radius: 50%; */
     border: 2px solid gray;

@@ -2,7 +2,7 @@ import { Fragment , React } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import AllOrders from './AllOrders'
-import { Link } from 'react-router-dom'
+import { Link, Navigate, useNavigate, useNavigation } from 'react-router-dom'
 import AllRoutes from '../Routes/AllRoutes'
 import { signOut } from 'firebase/auth'
 import { auth } from '../config/firebase'
@@ -16,21 +16,18 @@ const user = {
 
  
 
-  const userNavigation = [
-    { name: 'Your Profile', href: '#' },
-    { name: 'Settings', href: '#' },
-    { name: 'Sign out', href: '#' },
-  ]
+ 
 
   function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
   }
 
 const Dashboard = () => {
-
+  const navigate = useNavigate();
 
   const logout = async () => {
     await signOut(auth)
+    navigate('/login')
   }
 
 
