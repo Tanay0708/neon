@@ -125,7 +125,7 @@ useEffect(() => {
   return (
     <>
     <div className='heading mb-5 h-16 '>
-       <div className='w-1/2 h-full m-auto'>
+       <div className='w-1/2 h-full m-auto mt-2'>
         <img src="/Image/logo.svg" className='w-full h-full' alt="" />
        </div>
        
@@ -225,7 +225,7 @@ useEffect(() => {
            
             </div>
             <div>
-               <button className=' items-center  mt-10 rounded-lg right-2  w-20 fixed bottom-2 h-12 text-base text-white' style={{backgroundColor:"#5761FF"}} onClick={() =>setOpenModal(true)}>
+               <button className=' items-center  mt-10 rounded-lg right-2  w-20 fixed bottom-2 h-12 text-base text-white' style={{backgroundColor:"#F87171"}} onClick={() =>setOpenModal(true)}>
                 Buy Now
                </button>
               
