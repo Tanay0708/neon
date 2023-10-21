@@ -72,11 +72,29 @@ console.log(text,color)
         <div className='w-4/5  h-10 m-auto mt-2 '>
           <input type="number" placeholder='Enter your Number' className='border-b-2 w-full h-full' onChange={(e) => setNewNumber(e.target.value)} />
         </div>
-        <div className=' w-4/5 m-auto mt-10   h-12'>
-          <button className='w-full text-xl md:w-1/2 h-full text-white '  onClick={createOrder} style={{backgroundColor:"#03C5D3"}}>
+        <div className=' w-4/5 m-auto mt-8 md:flex justify-between  gap-3  h-12'>
+          <button className='w-full text-xl mb-2  md:w-1/2 h-full text-white '  onClick={createOrder} style={{backgroundColor:"#03C5D3"}}>
             Submit
           </button>
+          {/* <button className='w-full text-base md:w-1/2  h-full  text-white '   style={{backgroundColor:"#03C5D3"}}>
+          <a aria-label="Chat on WhatsApp" href="https://wa.me/916260512625?text=hello">
+           <img src="/Image/icons8-whatsapp.svg" className='h-full' alt="" />
+        
+          </a>
+              
+          </button>
+           */}
+            <a aria-label="Chat on WhatsApp"  className='w-full md:w-1/2' href="https://wa.me/918609860986?text=hello">
+           <div className='w-full text-base mb-2 flex justify-evenly items-center  md:w-full h-full text-black border-2 cursor-pointer' style={{border:'1px solid #03C5D3'}}>
+              <p>Contact Us</p>
+             
+           <img src="/Image/icons8-whatsapp.svg" className='h-full ' alt="" />
+        
+          
+           </div>
+           </a>
         </div>
+        
     </div>
     <div className=' h-full w-1/2 hidden md:block'>
       <img src="/Image/form.jpg" className='h-full w-full' alt="hello" />

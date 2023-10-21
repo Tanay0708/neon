@@ -18,7 +18,7 @@ const Colors = ({yourColor}) => {
     <hr className='mb-10' />
       <div className='colorHeading'>
      
-                    <h2>Choose your color</h2>
+                    <h2>SELECT COLOR</h2>
                     <p>Digital mockups only colours may appear different in real life</p>
                 </div>
     <div className='colorTypes'>

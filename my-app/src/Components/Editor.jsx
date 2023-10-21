@@ -152,10 +152,10 @@ useEffect(() => {
             <div className='mainImage' id='image-download'>
 
                 <div className='preview'>
-                   <h1    style={ isChecked ? {fontFamily:type , color:"#FFFFFF",textShadow:`0 0 10px ${color},  0 0 20px red,
+                   <h1    style={ isChecked ? {fontFamily:type , color:"#FFFFFF",textShadow:`0 0 10px ${color},  0 0 20px ${color},
     0 0 140px ${color},
-    0 0 160px ${color},
-    0 0 160px ${color} `} :{fontFamily:type,color:color,textShadow:'none'}  }>
+    0 0 160px ${color}
+   `} :{fontFamily:type,color:color,textShadow:'none'}  }>
                     {tat}
                    </h1>
                    
@@ -163,11 +163,7 @@ useEffect(() => {
                 <div  className='mainCard'>
                     <img style={{height:"100%",width:"100%",borderRadius:"15px"}} src={image} alt="" />
                 </div>
-                {/* <div className='moreText'>
-                  <h1>
-                    font:- {type}, size:- {size}
-                  </h1>
-                </div> */}
+            
             </div>
             <div className='priceMain'>
               ₹{price}
@@ -182,9 +178,7 @@ useEffect(() => {
             className='sr-only'
           />
           <div
-            className={`box block h-8 w-14 rounded-full ${
-              isChecked ? 'bg-red-400' : 'bg-gray-500'
-            }`}
+            className={`box block h-8 w-14 rounded-full `} style={isChecked ? {backgroundColor:"#03BBC9"}: {backgroundColor:"gray"}}
           ></div>
           <div
             className={`absolute left-1 top-1 flex h-6 w-6 items-center justify-center rounded-full bg-white transition ${
@@ -225,7 +219,7 @@ useEffect(() => {
            
             </div>
             <div>
-               <button className=' items-center  mt-10 rounded-lg right-2  w-20 fixed bottom-2 h-12 text-base text-white' style={{backgroundColor:"#F87171"}} onClick={() =>setOpenModal(true)}>
+               <button className=' items-center  mt-10 rounded-lg right-2  w-20 fixed bottom-2 h-12 text-base text-white' style={{backgroundColor:"#03BBC9"}} onClick={() =>setOpenModal(true)}>
                 Buy Now
                </button>
               
@@ -270,7 +264,7 @@ useEffect(() => {
             
              <div className='w-full' >
 
-                <button style={{backgroundColor:"#5761FF"}} className='  text-white rounded-lg text-xl w-full md:w-40 md:h-12 mt-3' onClick={() => setOpenModal(true)}>
+                <button style={{backgroundColor:"#03BBC9"}} className='  text-white rounded-lg text-xl w-full md:w-40 md:h-12 mt-3' onClick={() => setOpenModal(true)}>
                   BUY NOW
                 </button>
                 </div>

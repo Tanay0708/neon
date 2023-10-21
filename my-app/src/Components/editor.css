@@ -301,6 +301,7 @@
         height: 60vh;
 
     }
+   
     .sideCard {
         border-radius: 5px;
     }
@@ -354,7 +355,7 @@
         height: 5vh;
         align-items: center;
         border: 1px solid black;
-        border-radius: 25px;
+        border-radius: 5px;
         font-weight: bold;
     }
     .selectedButton {
@@ -365,7 +366,7 @@
         border-radius: 25px;
         font-weight: bold;
         color: white;
-        background-color: #5761FF;
+        background-color: #03BBC9;
     }
     .resDiv {
         width: 100%;
@@ -489,7 +490,7 @@
     border-radius: 8px;
     font-size: 1vw;
     color: white;
-    background-color: #5761FF;
+    background-color: #03BBC9;
 }
 
 .colorDiv {
@@ -499,7 +500,7 @@
 }
 .colorHeading h2 {
     font-size: 2vw;
-    font-weight: 500;
+    font-weight: bold;
     margin-top: 0.5vh;
     margin-bottom: 2vh;
 }

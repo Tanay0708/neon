@@ -39,7 +39,7 @@ const Sizes = ({handleSize}) => {
     <>
     <hr className='mt-10' />
     <div className='sizeHeader'>
-      <h1>Choose Size</h1>
+      <h1>SELECT SIZE</h1>
     </div>
     <div className='sizeType'>
         {
