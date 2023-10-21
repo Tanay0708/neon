@@ -1,7 +1,6 @@
 .sizeType {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    /* border: 1px solid red;    */
     gap: 1vw;
 }
 .sizeHeader {
@@ -20,7 +19,7 @@
 }
 
 .selectedSFont {
-    border: 1px solid #9a9a9a;
+
     height: 6vh;
     border-radius: 8px;
     font-size: 1.1vw;

@@ -43,8 +43,8 @@ const Dashboard = () => {
               <div className="flex items-center">
                 <div className="flex-shrink-0">
                   <img
-                    className="h-8 w-8"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                    className="h-12 w-14 "
+                    src="/Image/logo.svg"
                     alt="Your Company"
                   />
                 </div>
@@ -54,7 +54,7 @@ const Dashboard = () => {
                     <Link to={"/allorders"}>
                     <h2 className='text-white'>All Orders</h2>
                     </Link>
-                    <Link to={"/shipped"}>
+                    <Link to={"/shipped--orders"}>
                     <h2 className='text-white'>Shipped</h2>
                     </Link>
                     <Link to={"/completed"}>
@@ -73,7 +73,7 @@ const Dashboard = () => {
                       <Menu.Button className="relative flex max-w-xs items-center rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                         <span className="absolute -inset-1.5" />
                         <span className="sr-only">Open user menu</span>
-                        <img className="h-8 w-8 rounded-full" src={user.imageUrl} alt="" />
+                        <img className="h-8 w-8 rounded-full border-2" src="/Image/logo.svg" alt="" />
                       </Menu.Button>
                     </div>
                     <Transition
@@ -125,7 +125,7 @@ const Dashboard = () => {
                         </Disclosure.Button>
                     </Link>
 
-                    <Link to={"/shipped"}>
+                    <Link to={"/shipped--orders"}>
                     <Disclosure.Button className={classNames("text-white")}> 
                         Shipped
                         </Disclosure.Button>
@@ -137,23 +137,7 @@ const Dashboard = () => {
                     </Link>
             </div>
             <div className="border-t border-gray-700 pb-3 pt-4">
-              <div className="flex items-center px-5">
-                <div className="flex-shrink-0">
-                  <img className="h-10 w-10 rounded-full" src={user.imageUrl} alt="" />
-                </div>
-                <div className="ml-3">
-                  <div className="text-base font-medium leading-none text-white">{user.name}</div>
-                  <div className="text-sm font-medium leading-none text-gray-400">{user.email}</div>
-                </div>
-                <button
-                  type="button"
-                  className="relative ml-auto flex-shrink-0 rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
-                >
-                  <span className="absolute -inset-1.5" />
-                  <span className="sr-only">View notifications</span>
-                  <BellIcon className="h-6 w-6" aria-hidden="true" />
-                </button>
-              </div>
+              
               <div className="mt-3 space-y-1 px-2">
                
                <button onClick={logout} className='text-white'>Sign Out</button>

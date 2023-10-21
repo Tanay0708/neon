@@ -38,7 +38,7 @@ const AllOrders = () => {
 
     const orderDoc = doc(db,"orders",id)
     const newField = {shipped: sshipped}
-    console.log(newField)
+    // console.log(newField)
 
     await updateDoc(orderDoc,newField)
     window.location.reload();

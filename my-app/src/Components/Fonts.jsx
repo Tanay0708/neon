@@ -122,9 +122,6 @@ const Fonts = ({click}) => {
     },
     {
         font: 'WildScript'
-    },
-    {
-        font: 'monoscope'
     }
 
     ]

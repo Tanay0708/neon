@@ -44,7 +44,7 @@ const Sizes = ({handleSize}) => {
     <div className='sizeType'>
         {
           vari.map((el) => {
-          return  <button value={el.type} onClick={handleShape} className={el.type == shape ? `selectedSFont` : 'singleSFont'}>
+          return  <button key={el.type} value={el.type} onClick={handleShape} className={el.type == shape ? `selectedSFont` : 'singleSFont'}>
               {el.type}
               <br />
               

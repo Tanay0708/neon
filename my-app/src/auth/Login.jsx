@@ -36,16 +36,16 @@ const Login = () => {
         email,
         password
       )
-      console.log(user)
+    
       navigate("/allorders")
   
     }
     catch(err) {
-      console.log(err)
+      // console.log(err)
       alert("wrong credentials")
     }
 
-    console.log(email,password)
+  
   }
 
 
