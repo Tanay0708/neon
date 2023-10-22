@@ -62,7 +62,7 @@ console.log(text,color)
           </label>
         </div>
         <div className='w-4/5  h-10 m-auto mt-2  '>
-          <input type="text" placeholder='Enter your Email' className='border-b-2 w-full h-full' onChange={(e) => setNewName(e.target.value)} />
+          <input type="text" placeholder='Enter your Name' className='border-b-2 w-full h-full' onChange={(e) => setNewName(e.target.value)} />
         </div>
         <div className='mt-5 font-bold text-left m-auto w-4/5'>
           <label >
