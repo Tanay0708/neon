@@ -516,21 +516,21 @@
     overflow-y: hidden;
 }
 .singleColor {
-    width: 7vh;
-    height: 7vh;
+    width: 6vh;
+    height: 6vh;
     font-weight: bold;
     font-size: 12px;
     background-color: black;
-    /* border-radius: 50%; */
+    border-radius: 50%;
     border: 2px solid gray;
-    /* text-shadow: 
-    .1vw 0vw .25vw #ffd8d8, .2vw 0vw .25vw #ffd8d8, .4vw 0vw .25vw #ffd8d8, 
-  
-    .1vw 0vw   0vw #f25757, .2vw 0vw   0vw #f25757, .4vw 0vw   0vw #f25757,
-    .1vw 0vw  .1vw #f25757, .2vw 0vw  .1vw #f25757, .4vw 0vw  .1vw #f25757,
-    .1vw 0vw   2vw #f25757, .2vw 0vw   2vw #f25757, .4vw 0vw   2vw #f25757, 
-  
-    .1vw 0vw   1vw #e50b0b, .2vw 0vw   1vw #e50b0b, .4vw 0vw   5vw #e50b0b, 
-    .1vw 0vw   5vw #e50b0b, .2vw 0vw  20vw #e50b0b, .4vw 0vw  10vw #e50b0b,
-    .1vw 0vw  10vw #e50b0b, .2vw 0vw  30vw #e50b0b, .4vw 0vw  10vw #e50b0b; */
+    
+}
+.singleSelected {
+    width: 6vh;
+    height: 6vh;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: black;
+    border-radius: 50%;
+    border: 3px solid #03BBC9;
 }

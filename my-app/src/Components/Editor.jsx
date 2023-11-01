@@ -84,15 +84,15 @@ useEffect(() => {
       }
 
       
-    const node = document.getElementById('image-download');
+    // const node = document.getElementById('image-download');
 
-    function downloadImage() {
-        toPng(node)
-        .then(dataURL => {
-            download(dataURL,"custom-sign.png")
-        })
-        .catch(() => console.log("ERROR"))
-    }
+    // function downloadImage() {
+    //     toPng(node)
+    //     .then(dataURL => {
+    //         download(dataURL,"custom-sign.png")
+    //     })
+    //     .catch(() => console.log("ERROR"))
+    // }
 
 
 
@@ -152,9 +152,7 @@ useEffect(() => {
             <div className='mainImage' id='image-download'>
 
                 <div className='preview'>
-                   <h1    style={ isChecked ? {fontFamily:type , color:"#FFFFFF",textShadow:`0 0 10px ${color},  0 0 20px ${color},
-    0 0 140px ${color},
-    0 0 160px ${color}
+                   <h1    style={ isChecked ? {fontFamily:type , color:"#FFFFFF",textShadow:`0 0 10px ${color},  0 0 20px ${color}
    `} :{fontFamily:type,color:color,textShadow:'none'}  }>
                     {tat}
                    </h1>
